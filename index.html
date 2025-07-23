@@ -163,6 +163,23 @@
             font-size: 0.8em;
         }
 
+        .sub-achievements {
+            list-style: none;
+            margin: 10px 0 15px 20px;
+        }
+
+        .sub-achievements li {
+            margin-bottom: 6px;
+            padding-left: 15px;
+            position: relative;
+            color: #666;
+            font-size: 0.95em;
+        }
+
+        .sub-achievements li::before {
+            content: '';
+        }
+
         .skill-category {
             margin-bottom: 25px;
         }
@@ -275,8 +292,8 @@
 <body>
     <div class="container">
         <header class="header">
-            <h1 class="name">MicroRidge Technology LTD.</h1>
-            <h2 >Joel Vandergriendt</h2>
+          <h1 class="name">MicroRidge Technology LTD.</h1>
+          <h2> Joel Vandergriendt</h2>
             <p class="title">FPGA Design & Embedded Software Engineer</p>
             <div class="contact-info">
                 <div class="contact-item">
@@ -312,13 +329,25 @@
                         <div class="duration">2021 - Present</div>
                     </div>
                     <ul class="achievements">
-                        <li><strong>FPGA Vendor:</strong> Developed Ethernet loop-back example for Next Generation FPGA with Network-On-Chip enabling customer evaluation</li>
-                        <li><strong>Atomic Rules:</strong> Implemented IEEE 1588-2008 Precision Time Protocol (PTP) slave solution, achieving sub-microsecond synchronization accuracy</li>
-                        <li>Developed multi-port 100GbE Ethernet packet capture and replay solution</li>
-                        <li>Maintained FPGA to HOST PCIe Data mover</li>
-                        <li><strong>GPU Manufacturer:</strong> Developed FPGA based board management controller</li>
-                        <li><strong>Tier 1 Cloud Compute Provider:</strong> Developed proprietary precision time synchronization for data centre infrastructure achieving single digit nanosecond precision</li>
-                        <li>Developed FPGA based board management controller for terabit scale network switch infrastructure</li>
+                        <li><strong>FPGA Vendor:</strong></li>
+                        <ul class="sub-achievements">
+                            <li>Developed Ethernet loop-back example for Next Generation FPGA with Network-On-Chip enabling customer evaluation</li>
+                        </ul>
+                        <li><strong>Atomic Rules:</strong></li>
+                        <ul class="sub-achievements">
+                            <li>Implemented IEEE 1588-2008 Precision Time Protocol (PTP) slave solution, achieving sub-microsecond synchronization accuracy</li>
+                            <li>Developed multi-port 100GbE Ethernet packet capture and replay solution</li>
+                            <li>Maintained FPGA to HOST PCIe Data mover</li>
+                        </ul>
+                        <li><strong>GPU Manufacturer:</strong></li>
+                        <ul class="sub-achievements">
+                            <li>Developed FPGA based board management controller</li>
+                        </ul>
+                        <li><strong>Tier 1 Cloud Compute Provider:</strong></li>
+                        <ul class="sub-achievements">
+                            <li>Developed proprietary precision time synchronization for data centre infrastructure achieving single digit nanosecond precision</li>
+                            <li>Developed FPGA based board management controller for terabit scale network switch infrastructure</li>
+                        </ul>
                     </ul>
                 </div>
 
@@ -328,7 +357,7 @@
                         <div class="position">Senior Engineer</div>
                         <div class="duration">2019 - 2021</div>
                     </div>
-                    <ul class="achievements">
+                    <ul class="sub-achievements">
                         <li>Developed and maintained Convolutional Neural Network (CNN) inference engine for PolarFire FPGAs</li>
                         <li>Created comprehensive CNN framework and embedded software stack, supporting multiple model architectures</li>
                         <li>Implemented automated testing and validation pipelines for FPGA-accelerated ML workloads</li>
@@ -341,7 +370,7 @@
                         <div class="position">FPGA Engineer</div>
                         <div class="duration">2015 - 2019</div>
                     </div>
-                    <ul class="achievements">
+                    <ul class="sub-achievements">
                         <li>Designed and implemented SIMD processing engine for high-performance computing applications on FPGAs</li>
                         <li>Developed custom RISC-V soft processor optimized for FPGA deployment with vector processing extensions</li>
                         <li>Developed and maintained embedded firmware stack supporting both hardware platforms</li>
