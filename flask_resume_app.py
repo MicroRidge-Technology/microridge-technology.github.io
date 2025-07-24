@@ -129,7 +129,11 @@ def resume():
                          skills=skills)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    from  flask_frozen import Freezer
+    app.config['FREEZER_RELATIVE_URLS'] = True
+    freezer = Freezer(app)
+    freezer.freeze()
+    #app.run(debug=True)
 
 # requirements.txt content:
 """
