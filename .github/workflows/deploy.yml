@@ -37,7 +37,7 @@ jobs:
         
     - name: Generate static site
       run: |
-        python app.py --static
+        python flask_resume_app.py --static
         
     - name: Setup Pages
       uses: actions/configure-pages@v4
