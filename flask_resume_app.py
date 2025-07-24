@@ -27,7 +27,7 @@ from flask_frozen import Freezer
 app = Flask(__name__)
 
 # Configuration for static generation
-app.config['FREEZER_DESTINATION'] = 'docs'
+app.config['FREEZER_DESTINATION'] = 'build'
 app.config['FREEZER_RELATIVE_URLS'] = True
 app.config['FREEZER_IGNORE_MIMETYPE_WARNINGS'] = True
 
@@ -80,12 +80,11 @@ def parse_work_experience(content):
         current_main = None
         
         for line in lines:
-            line = line.strip()
-            
-            if line.startswith('- **') and line.endswith(':**'):
+            if line.startswith('- **') and line.endswith('**'):
                 # Main achievement category
+                line = line.strip("-: *")
                 current_main = {
-                    'category': line[4:-3],  # Remove "- **" and ":**"
+                    'category': line,  # Remove "- **" and ":**"
                     'item_list': []
                 }
                 achievements.append(current_main)
