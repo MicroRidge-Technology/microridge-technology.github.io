@@ -26,6 +26,11 @@ summary: "Computer Engineer with 10 years of experience in FPGA development, hig
 - **FPGA Vendor:**
   - Developed Ethernet loop-back example for Next Generation FPGA with Network-On-Chip enabling customer evaluation
 
+- **Ideon Technologies**
+  - Maintained and developed FPGA solution interfacing with specialized muon detection hardware
+  - Maintained and developed embedded firmware on AMD Zynq 7000 series ARM CPU utilizing FreeRTOS for real time data aquisition
+  - Implemented embedded firmware for STM32 based network switch
+
 - **Atomic Rules:**
   - Implemented IEEE 1588-2008 Precision Time Protocol (PTP) slave solution, achieving sub-microsecond synchronization accuracy
   - Developed multi-port 100GbE Ethernet packet capture and replay solution
@@ -95,6 +100,7 @@ summary: "Computer Engineer with 10 years of experience in FPGA development, hig
 - CMake
 - Git
 - Linux
+- FreeRTOS
 
 ### Hardware Platforms
 - Xilinx 7series/Ultrascale+/Versal
