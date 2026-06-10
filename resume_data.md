@@ -4,7 +4,7 @@ name: "Joel Vandergriendt"
 title: "FPGA Design & Embedded Software Engineer"
 phone: "(604) 308-5971"
 email: "joelvandergriendt@microridge.ca"
-location: "Maple Ridge, BC"
+location: "Surrey, BC"
 company: "MicroRidge Technology Ltd."
 
 # Education
