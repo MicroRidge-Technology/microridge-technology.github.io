@@ -14,7 +14,7 @@ education:
   year: "2014"
 
 # Professional Summary
-summary: "Computer Engineer with 10 years of experience in FPGA development, high-performance computing, and embedded systems. Proven track record delivering complex solutions for Fortune 500 companies, hyperscalers, and leading technology firms. Expert in machine learning acceleration, high-speed networking protocols, and precision timing systems."
+summary: "Computer Engineer with 10+ years of experience in FPGA development, high-performance computing, and embedded systems. Proven track record delivering complex solutions for Fortune 500 companies, hyperscalers, and leading technology firms. Expert in machine learning acceleration, high-speed networking protocols, and precision timing systems."
 ---
 
 # Work Experience
