@@ -92,6 +92,8 @@ summary: "Computer Engineer with 10 years of experience in FPGA development, hig
 - Computer Vision
 - High-Precision Timing
 - High-Speed Digital Design
+- Schematic Capture & Review
+- PCB Design (KiCad)
 
 ### Development Tools
 - Jenkins CI/CD
