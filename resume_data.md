@@ -88,6 +88,7 @@ summary: "Computer Engineer with 10+ years of experience in FPGA development, hi
 - Avalon
 
 ### Specialized Domains
+- Ethernet
 - Machine Learning/AI Acceleration
 - Computer Vision
 - High-Precision Timing
